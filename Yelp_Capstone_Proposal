@@ -1,0 +1,23 @@
+# Capstone Project Proposal
+
+## Predict Yelp rating based on metadata:
+
+There are many users that refer to Yelp when deciding which restaurant to eat at. Customers share their experiences and provide a rating based on that experience. Yelp has also captured metadata about the businesses to help people filter for a restaurant they’re interested in. Using the data provided by Yelp, I plan to predict a restaurant’s Yelp rating based on this metadata. There’s a lot more than just good food and drink that will motivate a customer to keep coming back. Amenities that the establishment offers its customers play a role in drawing a customer to try their restaurant or return for repeated visits.
+
+The data is available on Yelp's site. Multiple data sets are provided for use in discovering new insights. User profile, check ins, business details, tips, and reviews are available for data exploration.
+
+I plan to find correlations between the restaurant amenities and Yelp ratings. Using a logistic regression approach with the stepwise method, I hope to identify a set of restaurant features that will predict highly rated restaurants. Aspiring restaurant owners can use this analysis to determine what kind of restaurant they would like to open. Current restaurants can use this analysis to understand what their customers are looking for to draw in more business. It would be interesting to know too if a restaurant does satisfy all correlated features but still falls short.
+
+### Analysis approach:
+- Data Wrangling – import JSON files into Jupyter notebooks, check for missing values, clean and standardize data in table
+- Exploratory Data Analysis – check for any correlations between variable and rating
+- Areas to explore:
+    - Coffee shops and wifi
+    - Alcohol and later hours
+    - Types of restaurants in cities vs suburbia
+    - Restaurant locations dependent on population and ethnicity (if able to get data from another source)
+    - Ease of parking (accessibility)
+    - Apply machine learning to data using regression algorithms – nominal logistic regression 
+    - Draw conclusions and identify business features that impact Yelp rating
+- Apply machine learning to data using regression algorithms – nominal logistic regression (4/11: Looking into linear regression as rating does not have to be considered categorical)
+- Draw conclusions and identify business features that impact Yelp rating
